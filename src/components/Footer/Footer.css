@@ -85,6 +85,10 @@ footer p{
         padding-bottom: 29px;
     }
     footer a {
+      
         height: 36px;
+    }
+    footer {
+        min-height: 250px;   
     }
 }
