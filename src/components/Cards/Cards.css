@@ -58,3 +58,22 @@
     border-radius: 8px;
 
 }
+
+
+@media(max-width:1199px){
+    .card-btns{
+        display: block!important;
+    }
+    .card-btns a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width:992px){
+    .star .stars span {
+        padding: 0px 3px;
+        font-size: 15px;
+    }
+}

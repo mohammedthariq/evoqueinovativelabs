@@ -3,8 +3,8 @@ import './Cards.css';
 import CardImg from '../cardImage/CardImg';
 
 
-const Cards = ({product}) => {
-    console.log(product);
+const Cards = ({data,renderStars }) => {
+    // console.log(data);
     
 
 
@@ -15,15 +15,16 @@ const Cards = ({product}) => {
     <div className='card-wrapper'>
 
      <div className="card-img">
-            <CardImg/>
+            <CardImg data={data} renderStars={renderStars} />
         </div>
     <div className="card-content">
         <div className='details pb-21'>
-                    <h3>Invest in ideas with Small case</h3>
-                    <h5>Smallcases are investment products that help build a diversified, low-cost & long term portfolio.</h5>
+                    {/* <h3>{data.applicationType}</h3> */}
+                    <h3>{data.name}</h3>
+                    <h5>{data.description}</h5>
         </div>
         <div className="pricing pb-21">
-            <h3>Price:  ₹100 <span>per smallcase (buy)</span> </h3>
+            <h3>Price:  ₹{data.price} <span>per smallcase (buy)</span> </h3>
             <h5>Offer Price: <span className='free-card'>Free</span> for customers</h5>
         </div>
 

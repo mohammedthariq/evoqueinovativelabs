@@ -41,3 +41,10 @@
     bottom: 20px;
     left: 16px;
 }
+.star .stars span{
+    padding: 0px 6px;
+    font-size: 16px;
+}
+.review{
+    padding-left: 8px;
+}

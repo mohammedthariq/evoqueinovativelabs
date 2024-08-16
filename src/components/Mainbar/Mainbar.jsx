@@ -1,86 +1,96 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import "./Mainbar.css";
 import Cards from "../Cards/Cards";
-import Pagination from "../Pagination/Pagination";
+
+const Mainbar = ({ products, page, setPage, perPage , sort , setSort }) => {
+  const [currentPage, setCurrentPage] = useState(page);
+
+  useEffect(() => {
+    setCurrentPage(page);
+  }, [page]);
+
+  const totalPages = Math.ceil(products.length / perPage);
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      setPage(currentPage + 1);
+    }
+  };
+
+  const goToPreviousPage = () => {
+    if (currentPage > 1) {
+      setPage(currentPage - 1);
+    }
+  };
+
+  const handlePageChange = (pageNumber) => {
+    setPage(pageNumber);
+  };
 
 
-const Mainbar = ({products}) => {
-  
-  // console.log(products);
-  
-    const [currentPage, setCurrentPage] = useState(1);
-    const cardsPerPage = 4; // Adjust this based on your preference
-    const totalCards = 20; // Total number of cards (should be dynamic based on your data)
-  
-    // Mock data for Cards
-    const cards = Array.from({ length: totalCards }, (_, index) => <Cards key={index} />);
-  
-    // Get current cards
-    const indexOfLastCard = currentPage * cardsPerPage;
-    const indexOfFirstCard = indexOfLastCard - cardsPerPage;
-    const currentCards = cards.slice(indexOfFirstCard, indexOfLastCard);
-  
-    // Change page
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const renderStars = (rating) => {
+    const stars = [];
+    for (let i = 1; i <= 5; i++) {
+      if (i <= rating) {
+        stars.push(<span key={i}>★</span>);
+      } else {
+        stars.push(<span key={i}>☆</span>);
+      }
+    }
+    return stars;
+  };
+
   
   return (
     <>
-
-     <div className="row justify-content-end main-search">
-
-         <div class="dropdown ">
-
-           <button
-             class="btn  dropdown-toggle"
-             type="button"
-             id="dropdownMenuButton1"
-             data-bs-toggle="dropdown"
-             aria-expanded="false"
-           >
-            Newly added
-           </button>
-           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-             <li>
-               <a class="dropdown-item" href="#">
-                 Action
-               </a>
-             </li>
-             <li>
-               <a class="dropdown-item" href="#">
-                 Another action
-               </a>
-             </li>
-             <li>
-               <a class="dropdown-item" href="#">
-                 Something else here
-               </a>
-             </li>
-           </ul>
-         </div>
-     {/* <span className="dd-span">Sort by:</span> */}
-
-     </div>
-
-
-      <div className="row main-section ">
-        {products?.filter_data?.map((product) => (
-          <div className="col-md-6 " key={product.id} >
-            <Cards product={product} />
-          </div>
-        ))}
-         
-       
-
+      <div className="row justify-content-end main-search">
+    
+        <select className='dropdown border-0' value={sort} onChange={(e) => setSort(e.target.value)}>
+        <option value="">Sort By</option>
+        <option value="newly-added">Newly Added</option>
+      </select>
+     
       </div>
 
-      <Pagination
-        totalCards={totalCards}
-        cardsPerPage={cardsPerPage}
-        paginate={paginate}
-        currentPage={currentPage}
-      />
+      <div className="row main-section">
+        {products.length > 0 ? (
+          products
+            .slice((currentPage - 1) * perPage, currentPage * perPage)
+            .map((product) => (
+              <div className="col-md-6" key={product.name}>
+                <Cards data={product} renderStars={renderStars} />
+              </div>
+            ))
+        ) : (
+          <p>No products found.</p>
+        )}
+      </div>
 
-
+      <div className="pagination">
+        <button
+          className="page-item"
+          onClick={goToPreviousPage}
+          disabled={currentPage === 1}
+        >
+          &laquo;
+        </button>
+        {[...Array(totalPages).keys()].map(num => (
+          <button
+            className={`page-item ${currentPage === num + 1 ? 'active' : ''}`}
+            key={num + 1}
+            onClick={() => handlePageChange(num + 1)}
+          >
+            {num + 1}
+          </button>
+        ))}
+        <button
+          className="page-item"
+          onClick={goToNextPage}
+          disabled={currentPage === totalPages}
+        >
+          &raquo;
+        </button>
+      </div>
     </>
   );
 };

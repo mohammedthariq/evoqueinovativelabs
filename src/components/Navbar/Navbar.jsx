@@ -34,7 +34,7 @@ const Navbar = () => {
                   <a href="#">Login</a>
                   <a href="#" className='active'>Sign Up</a>
                   <span onClick={()=>setIsActive(true)} className='nav-span'>
-                      <i class="fa-solid  fa-bars"></i>
+                      <i className="fa-solid  fa-bars"></i>
                   </span>
               </div>
                   
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className={`mobile-menu-container container ${isActive ? "active" : ""}`}>
           <div  onClick={()=>setIsActive(false)} className="close-icon ">
           <span className='close-span'>
-                  <i class="fa-solid fa-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                   </span>
           </div>
 

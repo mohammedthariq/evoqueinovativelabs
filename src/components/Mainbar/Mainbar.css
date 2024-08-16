@@ -17,7 +17,7 @@
   position: relative;
 }
 .main-search::before{
-  content: 'Sort by:';
+  /* content: 'Sort by:'; */
   top: 8px;
   right: 8px;
   bottom: 8px;
@@ -34,13 +34,17 @@
 }
 .pagination {
     display: flex;
-    justify-content: center;
     margin-top: 20px;
   }
   
   .page-item {
-    margin: 0 5px;
+    margin: 0 9px;
+    border-radius: 15px;
+    border: none;
+    width: 32px;
+    height: 32px;
   }
+
   
   .page-item.active .page-link {
     background-color: #007bff;
@@ -57,4 +61,11 @@
     text-decoration: none;
     background-color: #e9ecef;
   }
+  .yellow{
+    color:  #FBCA1E!important;
+  }
+  select:focus-visible {
+    outline-offset: unset;
+    outline: none;
+}
   

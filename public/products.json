@@ -1,0 +1,358 @@
+[
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 1",
+      "price": 100.00,
+      "offerPrice": 75.00,
+      "description": "An amazing web application designed for productivity.",
+      "developedBy": "Company A",
+      "rating": 4.5,
+      "applicationType": "Web based applications",
+      "review_count":20,
+      "addedDate":"2024-01-11"
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 2",
+      "price": 150.00,
+      "offerPrice": 120.00,
+      "description": "A mobile app that helps you stay connected on the go.",
+      "developedBy": "Company B",
+      "rating": 4.0,
+      "applicationType": "Mobile applications",
+      "review_count":10,
+      "addedDate":"2024-01-12"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 3",
+      "price": 200.00,
+      "offerPrice": 180.00,
+      "description": "A robust web-based solution for team collaboration.",
+      "developedBy": "Company C",
+      "rating": 4.7,
+      "applicationType": "Web based applications",
+      "review_count":0,
+      "addedDate":"2024-01-13"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 4",
+      "price": 75.00,
+      "offerPrice": 50.00,
+      "description": "A mobile application for personal finance management.",
+      "developedBy": "Company D",
+      "rating": 3.8,
+      "applicationType": "Mobile applications",
+      "review_count":5,
+      "addedDate":"2024-08-16"
+
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 5",
+      "price": 120.00,
+      "offerPrice": 90.00,
+      "description": "An interactive web application for learning new skills.",
+      "developedBy": "Company E",
+      "rating": 4.2,
+      "applicationType": "Web based applications",
+      "review_count":7,
+      "addedDate":"2024-08-15"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 6",
+      "price": 130.00,
+      "offerPrice": 100.00,
+      "description": "A comprehensive mobile app for fitness tracking.",
+      "developedBy": "Company F",
+      "rating": 4.6,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-08-14"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 7",
+      "price": 110.00,
+      "offerPrice": 85.00,
+      "description": "A web-based application for project management.",
+      "developedBy": "Company G",
+      "rating": 4.3,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-08-13"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 8",
+      "price": 160.00,
+      "offerPrice": 140.00,
+      "description": "A mobile app for efficient task management.",
+      "developedBy": "Company H",
+      "rating": 4.1,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-08-12"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 9",
+      "price": 175.00,
+      "offerPrice": 150.00,
+      "description": "A versatile web app for creative design work.",
+      "developedBy": "Company I",
+      "rating": 4.9,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-02-16"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 10",
+      "price": 140.00,
+      "offerPrice": 115.00,
+      "description": "A mobile application that offers travel booking services.",
+      "developedBy": "Company J",
+      "rating": 3.9,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-05-16"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 11",
+      "price": 155.00,
+      "offerPrice": 130.00,
+      "description": "A web-based platform for online education.",
+      "developedBy": "Company K",
+      "rating": 4.8,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-04-01"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 12",
+      "price": 180.00,
+      "offerPrice": 160.00,
+      "description": "A mobile app for virtual reality experiences.",
+      "developedBy": "Company L",
+      "rating": 4.4,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-05-19"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 13",
+      "price": 95.00,
+      "offerPrice": 70.00,
+      "description": "A web application that provides weather updates.",
+      "developedBy": "Company M",
+      "rating": 4.5,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-03-25"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 14",
+      "price": 170.00,
+      "offerPrice": 150.00,
+      "description": "A mobile app for secure online banking.",
+      "developedBy": "Company N",
+      "rating": 4.2,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-02-19"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 15",
+      "price": 125.00,
+      "offerPrice": 100.00,
+      "description": "A web-based platform for stock trading.",
+      "developedBy": "Company O",
+      "rating": 4.7,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-08-1"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 16",
+      "price": 145.00,
+      "offerPrice": 120.00,
+      "description": "A mobile app for meditation and relaxation.",
+      "developedBy": "Company P",
+      "rating": 4.1,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-02-22"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 17",
+      "price": 135.00,
+      "offerPrice": 110.00,
+      "description": "A web application for live video streaming.",
+      "developedBy": "Company Q",
+      "rating": 4.3,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-03-11"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 18",
+      "price": 190.00,
+      "offerPrice": 170.00,
+      "description": "A mobile app for language learning.",
+      "developedBy": "Company R",
+      "rating": 4.6,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-04-11"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 19",
+      "price": 105.00,
+      "offerPrice": 85.00,
+      "description": "A web-based solution for cloud storage.",
+      "developedBy": "Company S",
+      "rating": 4.4,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-05-22"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 20",
+      "price": 165.00,
+      "offerPrice": 140.00,
+      "description": "A mobile app for health monitoring.",
+      "developedBy": "Company T",
+      "rating": 4.5,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-03-23"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 21",
+      "price": 115.00,
+      "offerPrice": 90.00,
+      "description": "A web-based tool for graphic design.",
+      "developedBy": "Company U",
+      "rating": 4.9,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-02-29"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 22",
+      "price": 185.00,
+      "offerPrice": 160.00,
+      "description": "A mobile app for food delivery services.",
+      "developedBy": "Company V",
+      "rating": 4.3,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-05-28"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 23",
+      "price": 155.00,
+      "offerPrice": 130.00,
+      "description": "A web application for financial planning.",
+      "developedBy": "Company W",
+      "rating": 4.2,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-02-28"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 24",
+      "price": 175.00,
+      "offerPrice": 150.00,
+      "description": "A mobile app for social networking.",
+      "developedBy": "Company X",
+      "rating": 4.0,
+      "applicationType": "Mobile applications",
+      "addedDate":"2024-02-21"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 25",
+      "price": 195.00,
+      "offerPrice": 170.00,
+      "description": "A web-based platform for customer relationship management.",
+      "developedBy": "Company Y",
+      "rating": 4.6,
+      "applicationType": "Web based applications",
+      "addedDate":"2024-01-28"
+
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 26",
+      "price": 130.00,
+      "offerPrice": 105.00,
+      "description": "A mobile app for online shopping.",
+      "developedBy": "Company Z",
+      "rating": 4.5,
+      "applicationType": "Mobile applications"
+    },
+    {
+      "productImage": "https://i.postimg.cc/858ft7P7/card-3.png",
+      "name": "Product 27",
+      "price": 140.00,
+      "offerPrice": 115.00,
+      "description": "A web application for booking event tickets.",
+      "developedBy": "Company AA",
+      "rating": 4.4,
+      "applicationType": "Web based applications"
+    },
+    {
+      "productImage": "https://i.postimg.cc/DwJzH7NL/card-4.png",
+      "name": "Product 28",
+      "price": 120.00,
+      "offerPrice": 95.00,
+      "description": "A mobile app for virtual fitness coaching.",
+      "developedBy": "Company BB",
+      "rating": 4.8,
+      "applicationType": "Mobile applications"
+    },
+    {
+      "productImage": "https://i.postimg.cc/g0BxcfDW/card-1.png",
+      "name": "Product 29",
+      "price": 160.00,
+      "offerPrice": 140.00,
+      "description": "A web-based service for personal blogging.",
+      "developedBy": "Company CC",
+      "rating": 4.3,
+      "applicationType": "Web based applications"
+    },
+    {
+      "productImage": "https://i.postimg.cc/B6dp5SRp/card-2.png",
+      "name": "Product 30",
+      "price": 150.00,
+      "offerPrice": 125.00,
+      "description": "A mobile app for music streaming.",
+      "developedBy": "Company DD",
+      "rating": 4.7,
+      "applicationType": "Mobile applications",
+      "review_count":20
+    }
+  ]
