@@ -1,0 +1,8 @@
+.rating h3{
+    font-size: 14px;
+    line-height: 18.24px;
+    align-items: center;
+    font-weight: 800;
+    color: var(--dark-color);
+    text-transform: capitalize;
+}

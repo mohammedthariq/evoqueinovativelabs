@@ -1,0 +1,54 @@
+.banner h1{
+    font-size: 34px;
+    line-height: 56px;
+    align-items: center;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    align-items: center;
+    color: #FFFFFF;
+}
+.banner-span{
+    font-weight: 700;
+}
+.banner{
+    background-color: #0461D1;
+    background-image: url('../../assets/banner-bg-overlay.png');
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 320px;
+    border-radius: 10px;
+}
+.w-35 {
+    width: 35%;
+}
+
+
+@media(max-width:992px){
+    .banner h1 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .banner p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+
+@media(max-width:768px){
+    .banner h1 {
+        font-size: 24px;
+        line-height: 39px;
+    }
+}
